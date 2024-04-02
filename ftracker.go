@@ -1,4 +1,4 @@
-package main
+package ftracker //main
 
 import (
 	"fmt"
@@ -137,6 +137,7 @@ func SwimmingSpentCalories(lengthPool, countPool int, duration, weight float64) 
 	return (swimmingMeanSpeed(lengthPool, countPool, duration) + swimmingCaloriesMeanSpeedShift) * swimmingCaloriesWeightMultiplier * weight * duration
 }
 
+/*
 func main() {
 	// Вы можете добавить здесь код для вызова ваших функций и вывода результатов на экран.
 	fmt.Println("Программа для отслеживания тренировок")
@@ -146,3 +147,4 @@ func main() {
 
 	fmt.Println(info)
 }
+*/
